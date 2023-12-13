@@ -1,6 +1,6 @@
 let nome = "Hero";
-let qtdeXP = 10001;
-let nivel = "";
+let qtdeXP = 1000;
+let nivel = "0";
 
 if (qtdeXP < 1000) {
     nivel = "Ferro";
