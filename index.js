@@ -1,5 +1,5 @@
 let nome = "Hero";
-let qtdeXP = 1000;
+let qtdeXP = 10001;
 let nivel = "0";
 
 if (qtdeXP < 1000) {
@@ -16,7 +16,7 @@ if (qtdeXP < 1000) {
     nivel = "Ascendente";
 }else if (qtdeXP > 9000 && qtdeXP <= 10000) {
     nivel = "Imortal";
-}else if (qtdeXP >= 10001) {
+}else if (qtdeXP > 10000) {
     nivel = "Radiante";
 }
 
